@@ -13,7 +13,7 @@ dependencies = [
 
 [tool.setuptools]
 packages = [
-    "/",
+    "sx1280",
 ]
 
 [tool.ruff.format]
