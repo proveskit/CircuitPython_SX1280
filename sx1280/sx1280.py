@@ -124,8 +124,8 @@ class SX1280:
         frequency,
         *,
         debug=False,
-        txen=False,
-        rxen=False,
+        txen: DigitalInOut | bool = False,
+        rxen: DigitalInOut | bool = False,
     ):
         self._device = SPIDevice(spi, cs, baudrate=500000, polarity=0, phase=0)
         self._reset = reset
