@@ -11,10 +11,10 @@ dependencies = [
     "pre-commit==4.0.1",
 ]
 
-[tool.setuptools]
-packages = [
-    "sx1280",
-]
+# [tool.setuptools]
+# packages = [
+#     "sx1280",
+# ]
 
 [tool.ruff.format]
 # Use `\n` line endings for all files
