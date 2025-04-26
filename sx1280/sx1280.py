@@ -120,10 +120,10 @@ class SX1280:
         spi: SPI,
         cs: DigitalInOut,
         reset: DigitalInOut,
-        busy,
-        frequency,
+        busy: DigitalInOut,
+        frequency: float,
         *,
-        debug=False,
+        debug: bool = False,
         txen: DigitalInOut | bool = False,
         rxen: DigitalInOut | bool = False,
     ):
