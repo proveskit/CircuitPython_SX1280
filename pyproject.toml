@@ -15,8 +15,12 @@ dependencies = [
 # Use `\n` line endings for all files
 line-ending = "lf"
 
+[tool.setuptools.packages.find]
+exclude = ["typings*"]
+include = ["proves_sx1280*"]
+
 [tool.pyright]
-include = ["sx1280/sx1280.py"]
+include = ["sx1280.py"]
 exclude = [
     "**/__pycache__",
     ".venv",
