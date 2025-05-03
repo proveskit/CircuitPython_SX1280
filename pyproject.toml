@@ -16,7 +16,7 @@ dependencies = [
 line-ending = "lf"
 
 [tool.pyright]
-include = ["sx1280.py"]
+include = ["sx1280/sx1280.py"]
 exclude = [
     "**/__pycache__",
     ".venv",
