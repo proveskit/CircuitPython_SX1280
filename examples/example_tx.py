@@ -7,7 +7,6 @@ import time
 import board
 import busio
 import digitalio
-
 import sx1280
 
 CS = digitalio.DigitalInOut(board.D35)
